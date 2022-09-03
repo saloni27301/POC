@@ -1,0 +1,264 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.header{
+  width:100%;
+  padding:20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:black;
+  position: sticky;
+  top:0;
+  z-index: 1;
+}
+.logo{
+  color: white;
+  border:1px solid white;
+  cursor: pointer;
+}
+.nav ul li{
+  display: inline;
+  padding:40px;
+}
+.nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 0.3s ease 0s;
+  font-size:17px;
+}
+.nav ul li a:hover{
+  color:orange;
+  text-decoration: underline;
+  border:1px solid white;
+}
+.nav button{
+  padding:9px 25px;
+  background-color: rgb(184, 125, 16);
+  color:white;
+  border-radius: 50px ;
+  border: none;
+}
+.nav button:hover{
+  background-color: rgb(144, 97, 10);
+}
+/*Main Section*/
+.main{
+  background-image: url('1.jpg');
+  width:100%;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+
+}
+.content{
+  position:relative;
+  top:160px;
+  left:150px;
+}
+.content h1{
+  color: white;
+  font-size: 50px;
+  word-spacing: 2px;
+  padding:10px 0;
+}
+.content p{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.content button{
+  padding:14px 30px;
+  background-color: rgb(184, 125, 16);
+  color:white;
+  border-radius: 50px ;
+  border: none;
+  margin:10px;
+}
+.content button:hover{
+  background-color: rgb(208, 135, 26);
+}
+.image h1{
+  text-align: center;
+  text-decoration: underline;
+  padding:10px 0;
+  color: rgb(96, 66, 9);
+}
+.img1{
+  width:33.33%;
+  float: left;
+  padding:5px;
+}
+.container{
+
+}
+.container h2{
+  text-align: center;
+  font-size: 40px;
+  color:rgb(116, 79, 11);
+  text-decoration: underline;
+  padding:10px 0;
+}
+.row{
+  background-color:rgb(230, 172, 145);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.col1{
+margin:40px;
+}
+#shop{
+  color:black;
+  position:relative;
+  bottom: 30px;
+  right:30px;
+}
+#line{
+  color:white;
+  line-height:20px;
+}
+.footer{
+  background-color: black;
+  margin-top:10px;
+  padding:30px;
+  color: white;
+}
+.row-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-size: 10px;
+  margin:0 30px;
+}
+.col-1 ul li{
+  text-decoration: none;
+  padding: 1px 3px;;
+  display: inline;
+
+  text-align: center;
+}
+.col-1 ul li a{
+  text-decoration: none;
+  color:white;
+  display: inline;
+}
+
+@media screen and (max-width: 763px){
+  .header{
+    padding:50px;
+  }
+  .logo h2 {
+    font-size: 30px;
+    position: absolute;
+    top:10px;
+    left:110px;
+    border:1px solid white;
+  }
+  .nav ul li a{
+    position:relative;
+    top:40px;
+    right:80px;
+    
+  }
+  .nav a button{
+    position: absolute;
+   right:40px;
+   top: 80px
+  }
+  .content{
+    left:50px;
+  }
+  .content h1 {
+    font-size: 40px;
+    
+  }
+  .content p {
+    font-size: 15px;
+  }
+  .container{
+    width:100%;
+  }
+  .col1{
+    margin:10px;
+  }
+  #shop{
+    font-size: 20px;
+    padding:40px 30px 0 40px;
+  }
+  #line{
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+.container-flex{
+  width:100%;
+  height:100vh;
+  background-image: url('10.jpg');
+  background-size: cover;
+}
+
+.cont{
+  width:50%;
+  padding:20px;
+  margin:5px;
+  height:50vh;
+  position: absolute;
+  top:140px;
+  left:350px;
+  background-color: rgb(217, 224, 221);
+  
+}
+.cont h2{
+  text-align: center;
+}
+input[type=text]{
+  width:30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin:10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=password]{
+  width:30%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin:10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=tel]{
+  width:100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+ margin:10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=month]{
+  width:40%;
+  padding: 8px;
+  border: 1px solid #ccc;
+ margin:10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.btn{
+  width:100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: rgb(50, 155, 97);
+ margin:10px;
+  box-sizing: border-box;
+  resize: vertical;
+  color: white;
+  
+}
+.btn:hover{
+  background-color: rgb(11, 82, 58);
+  
+}
